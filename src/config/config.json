@@ -1,0 +1,25 @@
+{
+    "development": {
+      "username": "devops",
+      "password": "devopsayca",
+      "database": "JARVIS-LIB",
+      "host": "192.168.0.7",
+      "port": "",
+      "dialect": "mysql",
+      "dialectOptions": {
+         "timezone": "utc"
+      }
+    },
+    "production": {
+      "username": "akhil",
+      "password": "@khil@yca",
+      "database": "janus_live_30_10_19",
+      "host": "rabbit.ycalabs.com",
+      "port": "6606",
+      "dialect": "mysql",
+      "dialectOptions": {
+         "timezone": "utc"
+      }
+    },
+    "secret":"ThisIsASecret"
+}
